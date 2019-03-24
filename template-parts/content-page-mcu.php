@@ -3,9 +3,10 @@
  * The template used for displaying page content mcu
  *
  * @package WordPress
- * @subpackage Twenty_Sixteen
+ * @subpackage Twenty_Sixteen Child
  * @since Twenty Sixteen 1.0
  */
+
 
 include_once get_stylesheet_directory() . '/includes/imdb-main-class.php';
 
