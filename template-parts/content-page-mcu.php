@@ -2,11 +2,7 @@
 /**
  * The template used for displaying page content mcu
  *
- * @package WordPress
- * @subpackage Twenty_Sixteen Child
- * @since Twenty Sixteen 1.0
  */
-
 
 include_once get_stylesheet_directory() . '/includes/imdb-main-class.php';
 
@@ -42,8 +38,6 @@ $avengers4 = $imdb_main->movieTitle('Avengers: Endgame');
 
 $spiderman1 = $imdb_main->movieTitle('Spider Man: Homecoming');
 $spiderman2 = $imdb_main->movieTitle('Spider Man: Far from Home');
-
-
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -78,7 +72,7 @@ $spiderman2 = $imdb_main->movieTitle('Spider Man: Far from Home');
             </div>
         </div>
 
-<div class="scrollme">
+    <div class="scrollme">
          <h2>Thor</h2>
         <div class="container-movies-3 animateme"
              data-from="1" data-when="enter" data-to="0" data-opacity="0" easing="easein" data-translatex="200">
@@ -103,8 +97,9 @@ $spiderman2 = $imdb_main->movieTitle('Spider Man: Far from Home');
             <div class="item">
             </div>
         </div>
-</div>
-        <div class="scrollme">
+    </div>
+
+    <div class="scrollme">
         <h2>Captain America</h2>
         <div class="container-movies-3 animateme" data-from="1" data-when="enter" data-to="0" data-opacity="0" easing="easein" data-translatex="200">
             <div class="item">
@@ -127,7 +122,8 @@ $spiderman2 = $imdb_main->movieTitle('Spider Man: Far from Home');
             </div>
         </div>
         </div>
-        <div class="scrollme">
+
+    <div class="scrollme">
         <h2>Guardiani della Galassia</h2>
         <div class="container-movies-3 animateme" data-from="1" data-when="enter" data-to="0" data-opacity="0" easing="easein" data-translatex="200">
             <div class="item">
@@ -146,7 +142,8 @@ $spiderman2 = $imdb_main->movieTitle('Spider Man: Far from Home');
             </div>
         </div>
         </div>
-        <div class="scrollme">
+
+    <div class="scrollme">
         <h2>Dr Strange / Black Panther / Captain Marvel</h2>
         <div class="container-movies-3 animateme" data-from="1" data-when="enter" data-to="0" data-opacity="0" easing="easein" data-translatex="200">
             <div class="item">
@@ -169,7 +166,8 @@ $spiderman2 = $imdb_main->movieTitle('Spider Man: Far from Home');
             </div>
         </div>
         </div>
-        <div class="scrollme">
+
+    <div class="scrollme">
         <h2>Ant Man</h2>
         <div class="container-movies-3 animateme" data-from="1" data-when="enter" data-to="0" data-opacity="0" easing="easein" data-translatex="200">
             <div class="item">
@@ -188,7 +186,8 @@ $spiderman2 = $imdb_main->movieTitle('Spider Man: Far from Home');
             </div>
         </div>
         </div>
-        <div class="scrollme">
+
+    <div class="scrollme">
         <h2>Avengers</h2>
         <div class="container-movies-4 animateme" data-from="1" data-when="enter" data-to="0" data-opacity="0" easing="easein" data-translatex="200">
             <div class="item">
@@ -217,7 +216,8 @@ $spiderman2 = $imdb_main->movieTitle('Spider Man: Far from Home');
             </div>
         </div>
         </div>
-        <div class="scrollme">
+
+    <div class="scrollme">
         <h2>Spider-man</h2>
         <div class="container-movies-3 animateme" data-from="1" data-when="enter" data-to="0" data-opacity="0" easing="easein" data-translatex="200">
             <div class="item">

@@ -8,9 +8,8 @@ function theme_enqueue_styles() {
    if(is_page(8)) {
        wp_enqueue_script('more-results', get_stylesheet_directory_uri() . '/js/more-results.js', 1.0, true);
    }
-    if(is_page(11)) {
-        wp_enqueue_script('scroll-me', get_stylesheet_directory_uri() . '/js/jquery.scrollme.js', array( 'jquery', 'jquery-ui-autocomplete' ), 1.0, true);
-    }
+    wp_enqueue_script('scroll-me', get_stylesheet_directory_uri() . '/js/jquery.scrollme.js', array( 'jquery', 'jquery-ui-autocomplete' ), 1.0, true);
+
 
 }
 
