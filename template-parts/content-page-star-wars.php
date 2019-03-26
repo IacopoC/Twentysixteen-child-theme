@@ -40,14 +40,16 @@ $prequel_episode1 = $imdb_main->movieTitle('episode I');
 	        <img src="<?php echo $spinoff2->Poster; ?>" alt="<?php echo $spinoff2->Title; ?>">
 		<h3 class="titolo-film"><?php echo $spinoff2->Title; ?></h3>
 		<p><strong><?php echo $spinoff2->Director; ?> - <?php echo $spinoff2->Year; ?> <?php echo $spinoff2->Country; ?></strong></p>
+	   <p><a href="/api-search/film/?id=<?php echo $spinoff2->imdbID; ?>">Scheda film</a></p>
+        </div>
 
-	   </div>
        <div class="item">
         <img src="<?php echo $spinoff1->Poster; ?>" alt="<?php echo $spinoff1->Title; ?>">
 		<h3 class="titolo-film"><?php echo $spinoff1->Title; ?></h3>
 		<p><strong><?php echo $spinoff1->Director; ?> - <?php echo $spinoff1->Year; ?> <?php echo $spinoff2->Country; ?></strong></p>
+           <p><a href="/api-search/film/?id=<?php echo $spinoff1->imdbID; ?>">Scheda film</a></p>
+       </div>
 
-	   </div>
 	    <div class="item">
 		</div>
 	</div>
@@ -59,20 +61,23 @@ $prequel_episode1 = $imdb_main->movieTitle('episode I');
             <img src="<?php echo $sequel_episode3->Poster; ?>" alt="<?php echo $sequel_episode3->Title; ?>">
             <h3 class="titolo-film"><?php echo $sequel_episode3->Title; ?></h3>
             <p><strong><?php echo $sequel_episode3->Director; ?> - <?php echo $sequel_episode3->Year; ?></strong></p>
-
+            <p><a href="/api-search/film/?id=<?php echo $sequel_episode3->imdbID; ?>">Scheda film</a></p>
         </div>
+
        <div class="item">
         <img src="<?php echo $sequel_episode2->Poster; ?>" alt="<?php echo $sequel_episode2->Title; ?>">
 		<h3 class="titolo-film"><?php echo $sequel_episode2->Title; ?></h3>
 		<p><strong><?php echo $sequel_episode2->Director; ?> - <?php echo $sequel_episode2->Year; ?></strong></p>
-
+           <p><a href="/api-search/film/?id=<?php echo $sequel_episode2->imdbID; ?>">Scheda film</a></p>
 	   </div>
+
 	   <div class="item">
         <img src="<?php echo $sequel_episode1->Poster; ?>" alt="<?php echo $sequel_episode1->Title; ?>">
 		<h3 class="titolo-film"><?php echo $sequel_episode1->Title; ?></h3>
 		<p><strong><?php echo $sequel_episode1->Director; ?> - <?php echo $sequel_episode1->Year; ?></strong></p>
+           <p><a href="/api-search/film/?id=<?php echo $sequel_episode1->imdbID; ?>">Scheda film</a></p>
+       </div>
 
-	   </div>
 	    <div class="item">
 		</div>
 	</div>
@@ -85,19 +90,19 @@ $prequel_episode1 = $imdb_main->movieTitle('episode I');
         <img src="<?php echo $original3->Poster; ?>" alt="<?php echo $original3->Title; ?>">
 		<h3 class="titolo-film"><?php echo $original3->Title; ?></h3>
 			<p><strong><?php echo $original3->Director; ?> - <?php echo $original3->Year; ?></strong></p>
-
+            <p><a href="/api-search/film/?id=<?php echo $original3->imdbID; ?>">Scheda film</a></p>
 	   </div>
 	    <div class="item">
         <img src="<?php echo $original2->Poster; ?>" alt="<?php echo $original2->Title; ?>">
 		<h3 class="titolo-film"><?php echo $original2->Title; ?></h3>
 			<p><strong><?php echo $original2->Director; ?> - <?php echo $original2->Year; ?></strong></p>
-
+            <p><a href="/api-search/film/?id=<?php echo $original2->imdbID; ?>">Scheda film</a></p>
 	   </div>
 	    <div class="item">
         <img src="<?php echo $original1->Poster; ?>" alt="<?php echo $original1->Title; ?>">
 		<h3 class="titolo-film"><?php echo $original1->Title; ?></h3>
 			<p><strong><?php echo $original1->Director; ?> - <?php echo $original1->Year; ?></strong></p>
-
+            <p><a href="/api-search/film/?id=<?php echo $original1->imdbID; ?>">Scheda film</a></p>
 	   </div>
 	</div>
         </div>
@@ -105,24 +110,27 @@ $prequel_episode1 = $imdb_main->movieTitle('episode I');
    <div class="scrollme">
    <h2>Trilogia prequel (1999-2005)</h2>
     <div class="container-prequels animateme" data-from="1" data-when="enter" data-to="0" data-opacity="0" easing="easein" data-translatex="200">
-	    <div class="item">
+
+        <div class="item">
         <img src="<?php echo $prequel_episode3->Poster; ?>" alt="<?php echo $prequel_episode3->Title; ?>">
 		<h3 class="titolo-film"><?php echo $prequel_episode3->Title; ?></h3>
 		<p><strong><?php echo $prequel_episode3->Director; ?> - <?php echo $prequel_episode3->Year; ?></strong></p>
+            <p><a href="/api-search/film/?id=<?php echo $prequel_episode3->imdbID; ?>">Scheda film</a></p>
+        </div>
 
-	   </div>
 	   <div class="item">
         <img src="<?php echo $prequel_episode2->Poster; ?>" alt="<?php echo $prequel_episode2->Title; ?>">
 		<h3 class="titolo-film"><?php echo $prequel_episode2->Title; ?></h3>
 		<p><strong><?php echo $prequel_episode2->Director; ?> - <?php echo $prequel_episode2->Year; ?></strong></p>
+           <p><a href="/api-search/film/?id=<?php echo $prequel_episode2->imdbID; ?>">Scheda film</a></p>
+       </div>
 
-	   </div>
-	    <div class="item">
+       <div class="item">
         <img src="<?php echo $prequel_episode1->Poster; ?>" alt="<?php echo $prequel_episode1->Title; ?>">
 		<h3 class="titolo-film"><?php echo $prequel_episode1->Title; ?></h3>
 		<p><strong><?php echo $prequel_episode1->Director; ?> - <?php echo $prequel_episode1->Year; ?></strong></p>
-
-	   </div>
+           <p><a href="/api-search/film/?id=<?php echo $prequel_episode1->imdbID; ?>">Scheda film</a></p>
+       </div>
 	</div>
    </div>
 	

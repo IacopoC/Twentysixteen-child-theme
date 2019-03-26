@@ -7,7 +7,7 @@ jQuery('#search-film-imdb').autocomplete({
         });
     },
     select: function(event, ui) {
-        var url_append = "http://site-4.test/api-ricerca/?t=";
+        var url_append = "http://site-1.test/api-ricerca/?t=";
         var label = ui.item.label;
         var res = label.replace(new RegExp(" ", "g"), "+").replace(new RegExp("'", "g"), "");
         window.location.href = url_append + res;

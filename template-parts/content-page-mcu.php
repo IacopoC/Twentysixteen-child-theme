@@ -56,19 +56,18 @@ $spiderman2 = $imdb_main->movieTitle('Spider Man: Far from Home');
                 <img src="<?php echo $ironman1->Poster; ?>" alt="<?php echo $ironman1->Title; ?>">
                 <h3 class="titolo-film"><?php echo $ironman1->Title; ?></h3>
                 <p><strong><?php echo $ironman1->Director; ?> - <?php echo $ironman1->Year; ?> <?php echo $ironman1->Country; ?></strong></p>
-
             </div>
+
             <div class="item">
                 <img src="<?php echo $ironman2->Poster; ?>" alt="<?php echo $ironman2->Title; ?>">
                 <h3 class="titolo-film"><?php echo $ironman2->Title; ?></h3>
                 <p><strong><?php echo $ironman2->Director; ?> - <?php echo $ironman2->Year; ?> <?php echo $ironman1->Country; ?></strong></p>
-
             </div>
+
             <div class="item">
                 <img src="<?php echo $ironman3->Poster; ?>" alt="<?php echo $ironman3->Title; ?>">
                 <h3 class="titolo-film"><?php echo $ironman3->Title; ?></h3>
                 <p><strong><?php echo $ironman3->Director; ?> - <?php echo $ironman3->Year; ?> <?php echo $ironman3->Country; ?></strong></p>
-
             </div>
         </div>
 
@@ -80,20 +79,20 @@ $spiderman2 = $imdb_main->movieTitle('Spider Man: Far from Home');
                 <img src="<?php echo $thor1->Poster; ?>" alt="<?php echo $thor1->Title; ?>">
                 <h3 class="titolo-film"><?php echo $thor1->Title; ?></h3>
                 <p><strong><?php echo $thor1->Director; ?> - <?php echo $thor1->Year; ?></strong></p>
-
             </div>
+
             <div class="item">
                 <img src="<?php echo $thor2->Poster; ?>" alt="<?php echo $thor2->Title; ?>">
                 <h3 class="titolo-film"><?php echo $thor2->Title; ?></h3>
                 <p><strong><?php echo $thor2->Director; ?> - <?php echo $thor2->Year; ?></strong></p>
-
             </div>
+
             <div class="item">
                 <img src="<?php echo $thor3->Poster; ?>" alt="<?php echo $thor3->Title; ?>">
                 <h3 class="titolo-film"><?php echo $thor3->Title; ?></h3>
                 <p><strong><?php echo $thor3->Director; ?> - <?php echo $thor3->Year; ?></strong></p>
-
             </div>
+
             <div class="item">
             </div>
         </div>
@@ -106,19 +105,18 @@ $spiderman2 = $imdb_main->movieTitle('Spider Man: Far from Home');
                 <img src="<?php echo $captainamerica1->Poster; ?>" alt="<?php echo $captainamerica1->Title; ?>">
                 <h3 class="titolo-film"><?php echo $captainamerica1->Title; ?></h3>
                 <p><strong><?php echo $captainamerica1->Director; ?> - <?php echo $captainamerica1->Year; ?></strong></p>
-
             </div>
+
             <div class="item">
                 <img src="<?php echo $captainamerica2->Poster; ?>" alt="<?php echo $captainamerica2->Title; ?>">
                 <h3 class="titolo-film"><?php echo $captainamerica2->Title; ?></h3>
                 <p><strong><?php echo $captainamerica2->Director; ?> - <?php echo $captainamerica2->Year; ?></strong></p>
-
             </div>
+
             <div class="item">
                 <img src="<?php echo $civilwar->Poster; ?>" alt="<?php echo $civilwar->Title; ?>">
                 <h3 class="titolo-film"><?php echo $civilwar->Title; ?></h3>
                 <p><strong><?php echo $civilwar->Director; ?> - <?php echo $civilwar->Year; ?></strong></p>
-
             </div>
         </div>
         </div>
@@ -130,14 +128,14 @@ $spiderman2 = $imdb_main->movieTitle('Spider Man: Far from Home');
                 <img src="<?php echo $guardianofthegalaxy1->Poster; ?>" alt="<?php echo $guardianofthegalaxy1->Title; ?>">
                 <h3 class="titolo-film"><?php echo $guardianofthegalaxy1->Title; ?></h3>
                 <p><strong><?php echo $guardianofthegalaxy1->Director; ?> - <?php echo $guardianofthegalaxy1->Year; ?></strong></p>
-
             </div>
+
             <div class="item">
                 <img src="<?php echo $guardianofthegalaxy2->Poster; ?>" alt="<?php echo $guardianofthegalaxy2->Title; ?>">
                 <h3 class="titolo-film"><?php echo $guardianofthegalaxy2->Title; ?></h3>
                 <p><strong><?php echo $guardianofthegalaxy2->Director; ?> - <?php echo $guardianofthegalaxy2->Year; ?></strong></p>
-
             </div>
+
             <div class="item">
             </div>
         </div>
@@ -150,19 +148,18 @@ $spiderman2 = $imdb_main->movieTitle('Spider Man: Far from Home');
                 <img src="<?php echo $drstrange->Poster; ?>" alt="<?php echo $drstrange->Title; ?>">
                 <h3 class="titolo-film"><?php echo $drstrange->Title; ?></h3>
                 <p><strong><?php echo $drstrange->Director; ?> - <?php echo $drstrange->Year; ?></strong></p>
-
             </div>
+
             <div class="item">
                 <img src="<?php echo $blackpanther->Poster; ?>" alt="<?php echo $blackpanther->Title; ?>">
                 <h3 class="titolo-film"><?php echo $blackpanther->Title; ?></h3>
                 <p><strong><?php echo $drstrange->Director; ?> - <?php echo $blackpanther->Year; ?></strong></p>
-
             </div>
+
             <div class="item">
                 <img src="<?php echo $captainmarvel->Poster; ?>" alt="<?php echo $captainmarvel->Title; ?>">
                 <h3 class="titolo-film"><?php echo $captainmarvel->Title; ?></h3>
                 <p><strong><?php echo $captainmarvel->Director; ?> - <?php echo $captainmarvel->Year; ?></strong></p>
-
             </div>
         </div>
         </div>
@@ -174,14 +171,14 @@ $spiderman2 = $imdb_main->movieTitle('Spider Man: Far from Home');
                 <img src="<?php echo $antman1->Poster; ?>" alt="<?php echo $antman1->Title; ?>">
                 <h3 class="titolo-film"><?php echo $antman1->Title; ?></h3>
                 <p><strong><?php echo $antman1->Director; ?> - <?php echo $antman1->Year; ?></strong></p>
-
             </div>
+
             <div class="item">
                 <img src="<?php echo $antman2->Poster; ?>" alt="<?php echo $antman2->Title; ?>">
                 <h3 class="titolo-film"><?php echo $antman2->Title; ?></h3>
                 <p><strong><?php echo $antman2->Director; ?> - <?php echo $antman2->Year; ?></strong></p>
-
             </div>
+
             <div class="item">
             </div>
         </div>
@@ -194,25 +191,24 @@ $spiderman2 = $imdb_main->movieTitle('Spider Man: Far from Home');
                 <img src="<?php echo $avengers1->Poster; ?>" alt="<?php echo $avengers1->Title; ?>">
                 <h3 class="titolo-film"><?php echo $avengers1->Title; ?></h3>
                 <p><strong><?php echo $avengers1->Director; ?> - <?php echo $avengers1->Year; ?></strong></p>
-
             </div>
+
             <div class="item">
                 <img src="<?php echo $avengers2->Poster; ?>" alt="<?php echo $avengers2->Title; ?>">
                 <h3 class="titolo-film"><?php echo $avengers2->Title; ?></h3>
                 <p><strong><?php echo $avengers2->Director; ?> - <?php echo $avengers2->Year; ?></strong></p>
-
             </div>
+
             <div class="item">
                 <img src="<?php echo $avengers3->Poster; ?>" alt="<?php echo $avengers3->Title; ?>">
                 <h3 class="titolo-film"><?php echo $avengers3->Title; ?></h3>
                 <p><strong><?php echo $avengers3->Director; ?> - <?php echo $avengers3->Year; ?></strong></p>
-
             </div>
+
             <div class="item">
                 <img src="<?php echo $avengers4->Poster; ?>" alt="<?php echo $avengers4->Title; ?>">
                 <h3 class="titolo-film"><?php echo $avengers4->Title; ?></h3>
                 <p><strong><?php echo $avengers4->Director; ?> - <?php echo $avengers4->Year; ?></strong></p>
-
             </div>
         </div>
         </div>
@@ -224,14 +220,14 @@ $spiderman2 = $imdb_main->movieTitle('Spider Man: Far from Home');
                 <img src="<?php echo $spiderman1->Poster; ?>" alt="<?php echo $spiderman1->Title; ?>">
                 <h3 class="titolo-film"><?php echo $spiderman1->Title; ?></h3>
                 <p><strong><?php echo $spiderman1->Director; ?> - <?php echo $spiderman1->Year; ?></strong></p>
-
             </div>
+
             <div class="item">
                 <img src="<?php echo $spiderman2->Poster; ?>" alt="<?php echo $spiderman2->Title; ?>">
                 <h3 class="titolo-film"><?php echo $spiderman2->Title; ?></h3>
                 <p><strong><?php echo $spiderman2->Director; ?> - <?php echo $spiderman2->Year; ?></strong></p>
-
             </div>
+
             <div class="item">
             </div>
         </div>
