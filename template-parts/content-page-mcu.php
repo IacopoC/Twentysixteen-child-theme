@@ -89,7 +89,7 @@ $spiderman2 = $imdb_main->movieTitle('Spider Man: Far from Home');
                 <img src="<?php echo $thor2->Poster; ?>" alt="<?php echo $thor2->Title; ?>">
                 <h3 class="titolo-film"><?php echo $thor2->Title; ?></h3>
                 <p><strong><?php echo $thor2->Director; ?> - <?php echo $thor2->Year; ?></strong></p>
-                <p><a href="/api-search/film/?id=<?php echo $tho2->imdbID; ?>">Scheda film</a></p>
+                <p><a href="/api-search/film/?id=<?php echo $thor2->imdbID; ?>">Scheda film</a></p>
             </div>
 
             <div class="item">
@@ -125,7 +125,7 @@ $spiderman2 = $imdb_main->movieTitle('Spider Man: Far from Home');
                 <img src="<?php echo $civilwar->Poster; ?>" alt="<?php echo $civilwar->Title; ?>">
                 <h3 class="titolo-film"><?php echo $civilwar->Title; ?></h3>
                 <p><strong><?php echo $civilwar->Director; ?> - <?php echo $civilwar->Year; ?></strong></p>
-                <p><a href="/api-search/film/?id=<?php echo $captainamerica3->imdbID; ?>">Scheda film</a></p>
+                <p><a href="/api-search/film/?id=<?php echo $civilwar->imdbID; ?>">Scheda film</a></p>
             </div>
         </div>
         </div>
