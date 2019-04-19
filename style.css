@@ -207,3 +207,10 @@ input#search-film-imdb {
     position: absolute;
     width: 1px;
 }
+
+/* Icone */
+
+.fa-facebook {
+	font-size: 1.5em;
+	margin: 0 0 10px 0;
+}
