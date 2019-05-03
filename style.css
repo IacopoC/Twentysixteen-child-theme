@@ -49,6 +49,10 @@ body {
 
 /* Stile star rating */
 
+.rating-stars {
+	border-bottom: 1px solid black;
+}
+
 .dashicons-star-filled,
 .dashicons-star-half,
 .dashicons-star-empty {

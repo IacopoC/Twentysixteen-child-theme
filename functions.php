@@ -13,6 +13,12 @@ function theme_enqueue_styles() {
 
 }
 
+add_action( 'wp_enqueue_scripts', 'load_dashicons_front_end' );
+
+function load_dashicons_front_end() {
+    wp_enqueue_style( 'dashicons' );
+}
+
 
 function film_search_form() {
 
@@ -105,7 +111,6 @@ function rating_stars_meta_box_init() {
 function rating_stars_meta_box($post,$box) {
 	
 	$rating_stars = get_post_meta($post->ID,'_rating_stars', true);
-	
 	wp_nonce_field( plugin_basename(__FILE__), 'rating_stars_save_meta_box');
 	
 	echo '<p>Voto: <input type="number" name="rating_stars" value="'.esc_attr($rating_stars).'" min="1" max="5" step=".5" /></p>';
@@ -117,16 +122,43 @@ add_action('save_post','rating_stars_save_meta_box');
 function rating_stars_save_meta_box($post_id) {
 	
 	if(isset($_POST['rating_stars'])) {
-	
 	if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE )
 		return;
 	
-	wp_verify_nonce( plugin_basename(__FILE__), 'rating_stars_save_meta_box');	
-		
+	wp_verify_nonce( plugin_basename(__FILE__), 'rating_stars_save_meta_box');
 	update_post_meta($post_id,'_rating_stars',sanitize_text_field($_POST['rating_stars']));
 
 	}
 	
+}
+
+// Metabox per scheda film
+
+
+add_action('add_meta_boxes','movie_box_meta_box_init');
+
+function movie_box_meta_box_init() {
+    add_meta_box("moviebox-meta", "Scheda film", "movie_box_meta_box", "post", "side", "high", null);
+}
+
+function movie_box_meta_box($post) {
+
+    $movie_box = get_post_meta($post->ID,'_movie_box', true);
+    wp_nonce_field( plugin_basename(__FILE__), 'movie_box_save_meta_box');
+    echo '<p>ID film: <input type="text" name="movie_box" value="'.esc_attr($movie_box).'" /></p>';
+}
+
+add_action('save_post','movie_box_save_meta_box');
+
+function movie_box_save_meta_box($post_id) {
+
+    if(isset($_POST['movie_box'])) {
+        if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE )
+            return;
+
+        wp_verify_nonce( plugin_basename(__FILE__), 'movie_box_save_meta_box');
+        update_post_meta($post_id,'_movie_box',sanitize_text_field($_POST['movie_box']));
+    }
 }
 
 // Aggiungi variabile query placeholder id per singolo film
