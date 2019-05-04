@@ -20,15 +20,17 @@
 	<div class="entry-content">
 		<?php
 			$rating_stars = get_post_meta($post->ID, '_rating_stars',true);
-            $movie_box = get_post_meta($post->ID, '_movie_box',true);
-
-            if (!empty($rating_stars)) { ?>
-		    <p class="rating-stars"><strong>Voto:</strong><?php echo do_shortcode( '[rating_stars rate="'. $rating_stars .'"]' ); ?></p>
-		<?php }
-            if (!empty($movie_box)) { ?>
-                <a href="/api-search/film/?id=<?php echo $movie_box; ?>" target="_blank"><p class="movie-box">Scheda film</p></a>
-        <?php }
-
+            $movie_box = get_post_meta($post->ID, '_movie_box',true); ?>
+        <p class="rating-stars">
+          <?php
+            if (!empty($rating_stars)): ?>
+                <strong>Voto:</strong><?php echo do_shortcode( '[rating_stars rate="'. $rating_stars .'"]' ); ?>
+		    <?php endif;
+            if (!empty($movie_box)): ?>
+                <a class="right" href="/api-search/film/?id=<?php echo $movie_box; ?>" target="_blank"><strong>Scheda film</strong></a>
+            <?php endif; ?>
+        </p>
+        <?php
 			the_content();
 
 			wp_link_pages( array(

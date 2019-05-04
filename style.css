@@ -46,6 +46,10 @@ body {
 	padding:1em 0;
 }
 
+.right {
+	float:right;
+	padding:0 5px;
+}
 
 /* Stile star rating */
 
