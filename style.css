@@ -222,3 +222,15 @@ input#search-film-imdb {
 	font-size: 1.5em;
 	margin: 0 0 10px 0;
 }
+
+/* Easter Egg */
+
+.duran img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.duran img:hover {
+	opacity:0.5;
+}
