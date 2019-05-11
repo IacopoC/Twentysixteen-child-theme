@@ -14,12 +14,13 @@ get_header(); ?>
 
                 // Include the page content template.
                 get_template_part( 'template-parts/content', 'page' ); ?>
-                    <div class="duran">
-                        <a onclick="myPlay()">
-                            <img src="/wp-content/uploads/2019/05/rio.jpg">
-                        </a>
-                    </div>
-
+               <div class="center">
+                <div class="ruffalo">
+                    <a onclick="playRuffalo()">
+                    <img src="/wp-content/uploads/2019/05/mark-ruffalo.png">
+                    </a>
+                </div>
+               </div>
                 <?php
                 // End of the loop.
             endwhile;
@@ -29,9 +30,9 @@ get_header(); ?>
 
     </div><!-- .content-area -->
 <script>
-    function myPlay(){
-        var audio = new Audio("/wp-content/uploads/2019/05/banner-ragnarok.mp3");
-        audio.play();
+    function playRuffalo(){
+        let playruffalo = new Audio("/wp-content/uploads/2019/05/Yeah-Mark-Ruffalo-Huh.mp3");
+        playruffalo.play();
     }
 </script>
 <?php get_footer(); ?>
